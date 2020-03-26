@@ -34,7 +34,7 @@ describe('server.js', function() {
                 .get('/')
                 .then(res => {
                     expect(res.body.api).toBe("up");
-                })
+                });
         });
     });
 });
